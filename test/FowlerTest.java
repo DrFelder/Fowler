@@ -33,7 +33,7 @@ public class FowlerTest {
         Customer john = new Customer("John Doe");
         john.addRental(rentalTwoThousandAndOne);
 
-        //assertEquals(0, rentalTwoThousandAndOne.amountFor(rentalTwoThousandAndOne));
+        //assertEquals(0, rentalTwoThousandAndOne.getCharge(rentalTwoThousandAndOne));
     }
 
     @Test
@@ -43,7 +43,7 @@ public class FowlerTest {
         Customer john = new Customer("John Doe");
         john.addRental(rentalTwoThousandAndOne);
 
-        //assertEquals(0, rentalTwoThousandAndOne.amountFor(rentalTwoThousandAndOne));
+        //assertEquals(0, rentalTwoThousandAndOne.getCharge(rentalTwoThousandAndOne));
     }
 
     @Test
@@ -53,7 +53,7 @@ public class FowlerTest {
         Customer john = new Customer("John Doe");
         john.addRental(rentalTwoThousandAndOne);
 
-        //assertEquals(0, rentalTwoThousandAndOne.amountFor(rentalTwoThousandAndOne));
+        //assertEquals(0, rentalTwoThousandAndOne.getCharge(rentalTwoThousandAndOne));
     }
 
 }
